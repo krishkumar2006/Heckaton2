@@ -1,4 +1,4 @@
-import ContactPage from '@/components/contact-header'
+import ContactPage from '@/components/content-p/content-p'
 import React from 'react'
 
 const Contact = () => {

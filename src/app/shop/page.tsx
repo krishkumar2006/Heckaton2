@@ -7,6 +7,8 @@ const Shop = () => {
     <>
     <ShopPage />
     <ShopMain />
+
+  
     </>
   )
 }
