@@ -48,10 +48,10 @@ const Header = () => {
           </a>
         </div>
         {/* Right Image */}
-        <div className="relative mt-8 md:mt-0">
-          <Image src={singleseater} alt="Rocket Single Seater" className="rounded-lg shadow-sm mx-auto" />
+      <div className="flex justify-end"> <div className="mt-8 md:mt-0 flex justify-end ">
+          <Image src={singleseater} alt="Rocket Single Seater" className="rounded-lg shadow-sm flex justify-end" />
         </div>
-      </div>
+      </div></div>
 
       {/* Side Table Section */}
       <div className="flex flex-wrap justify-center gap-8 p-4">
