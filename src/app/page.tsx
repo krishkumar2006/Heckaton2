@@ -3,14 +3,14 @@ import Footer from "@/components/Footer/Footer";
 
 
 
-export default async function  Home() {
+export default function  Home() {
 
  
   return (
    <div>
     
-     <Header></Header>
-    <Footer></Footer> 
+     <Header/>
+    <Footer/> 
     
 
     
