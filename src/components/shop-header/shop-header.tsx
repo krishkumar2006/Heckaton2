@@ -15,7 +15,7 @@ import {
 
 export default function ShopPage() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen ">
       {/* Hero Section with Background */}
       <div className="relative h-[300px] w-full">
         <Image
@@ -25,7 +25,7 @@ export default function ShopPage() {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-black/20" />
+        <div className="absolute inset-0 bg-black/20 "/>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
           {/* Logo */}
           <div className="mb-4">
@@ -50,7 +50,7 @@ export default function ShopPage() {
       </div>
 
       {/* Toolbar */}
-      <div className="mx-auto max-w-7xl px-4 py-8 bg-[#FAF4F4]">
+      <div className="mx-auto max-w-7xl px-4 py-10 bg-[#FAF4F4]">
         <div className="flex flex-col items-start justify-between space-y-4 border-b pb-6 md:flex-row md:items-center md:space-y-0">
           <div className="flex items-center space-x-4">
             <Button variant="outline" size="sm">
